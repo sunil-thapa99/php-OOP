@@ -1,0 +1,106 @@
+/* import fonts */
+@import url('https://stockfont.org/?4dad8c1cb4bdfe972608f9dce4042e2680389f8e1aeb105843e03931a52367f4');
+
+* {margin: 0; padding: 0;}
+
+html {font-family: 'Oxygen-Regular', verdana, sans-serif; }
+
+body {background-color: #000;}
+header {background-color: #004225
+
+; color: white;
+
+height: 200px;
+
+}
+
+header img {width: 500px; float: left; background-color: white; border-radius: 20px; margin-top: 20px;}
+header aside {float: right; margin-top: 15px;}
+header section {width: 1000px; display: block; margin:auto;}
+header h1 {float: left; margin-left: 20px;}
+nav {width: 100%; background-color: #333; overflow: auto;}
+body > img {width: 100%; display: block;}
+nav ul {width: 1000px; margin: auto; display: block; list-style-type: none;}
+nav ul li {width: 15%; float: left; overflow: auto; text-align: center;}
+nav a {color: white; padding-top: 10px; display: block;}
+
+
+
+nav {font-family: 'Anton';}
+header section {  display: block; font-family: 'Anton', sans-serif;}
+
+header h1 {font-weight: normal;}
+
+
+h1 { font-size:4em; color: white; text-align: center; padding-top: 20px; text-shadow: 2px 2px 2px #000;}
+
+main {min-height: 75vh; background-color: #fff; width: 70vw; display: block; margin: auto; box-shadow: 0px 0px 10px #888; color:#444;}
+footer {min-height: 5vh;}
+
+main h2 {font-size:2em;}
+.home {padding: 5vw; width: 60vw;}
+
+p, li, h2 {margin-bottom: 1em;}
+ol {margin-left: 30px;}
+
+pre {margin-top: 20px;}
+code {background-color: #ccc;}
+pre code {display: block;}
+
+footer {background-color: #004225; padding: 10px; color: white;}
+
+form select, form label, form input, form textarea {float: left; width: 200px; padding: 10px; margin-top: 20px;}
+form label {clear: left;}
+textarea {height: 100px;}
+form input[type="text"], form input[type="password"], textarea {color: #999; font-family: verdana, sans-serif}
+input[type="submit"] {clear: both; margin-left: 220px; width: 220px;}
+
+
+.left ul {list-style-type: none }
+section a {color: #444;}
+
+form select {width: 220px;}
+table {width: 100%; margin-top: 20px;}
+td {padding: 5px; border-bottom: 1px solid #333;}
+
+.jobs {list-style-type: none}
+.jobs strong {width: 150px; float:  left; clear: left;}
+.jobs p {width: 500px; float: left;}
+
+.jobs li {padding-top: 20px; padding-bottom: 20px; border-bottom: 2px solid #aaa; overflow: auto}
+.jobs a {float: right; clear: both;}
+
+img.shop {width: 800px;}
+
+.stock, .admin {display: table;}
+.stock > ul, .admin .left { width: 10vw; list-style-type: none; display: table-cell; padding: 10px; background-color: #555; margin: 0;}
+
+.stock .products, .admin .right {display: table-cell; padding: 20px;}
+
+.stock > ul a, .admin .left a {color: white; text-decoration: none;}
+
+table td input[type="submit"] {margin: 0; float: right; width: auto; padding: auto;}
+
+.cars ul {margin-top: 40px; list-style-type: none;}
+.cars li {border-top: 2px solid #888; padding: 20px; overflow: auto;}
+
+.cars li .noimage, .cars li img {width: 20%; margin-right: 4%; min-height: 50px; float: left;}
+.cars .info {float: left; width: 75%;}
+
+.current {background-color: #ddd; color: #333; display: block;}
+.stock > ul .current a {color: #333;}
+.categories li {margin: 0; padding: 0.5em; font-size: 2em;}
+
+.products > img {max-height: 300px;}
+
+a:hover {color: #004225 !important;}
+
+.right {padding: 20px;}
+
+main h1 {color: #004225;}
+
+main img {display: block;}
+
+.displayImage img{
+	width: 150px; height: 150px; padding-left: 20px;
+}

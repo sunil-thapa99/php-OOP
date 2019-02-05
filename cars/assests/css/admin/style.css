@@ -1,0 +1,41 @@
+.tab{
+	width: 100%;
+	background: #ADADAD;
+}
+.tab h2{
+	text-align: center;
+}
+.tab ul{
+	display: inline-flex;
+	flex-direction: row;
+}
+.tab ul li{	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	background: #3684C2;
+}
+li{
+	list-style: none;
+}
+.stry li img{
+	width: 20%;
+}
+a{
+	color: #222;
+	font-weight: bold;
+	text-decoration: none;
+}
+button{
+	margin: 10px;
+	padding: 5px;
+	border: 2px groove black;
+	border-radius: 5px;
+	background: #CBA;
+	cursor: pointer;
+}
+#addCareer{
+	display: none;
+}
+table, th, td {
+	border: 2px groove #121;
+}
